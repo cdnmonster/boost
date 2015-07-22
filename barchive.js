@@ -27,10 +27,10 @@ function LoadTheArchive(TotalFeed)
 	    PostURLs.push(ThisPostURL);
 	}
     }
-    DisplaytheTOC(PostTitles,PostURLs,PostYears,PostMonths,PostDays);
+    DisplaytheTOC(PostTitles,PostURLs);
 }
 
-function DisplaytheTOC(PostTitles,PostURLs,PostYears,PostMonths,PostDays)
+function DisplaytheTOC(PostTitles,PostURLs)
 {
     var MonthNames=["January","February","March","April","May","June","July","August","September","October","November","December"];
     var NumberOfEntries=PostTitles.length;
