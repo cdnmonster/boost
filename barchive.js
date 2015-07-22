@@ -27,16 +27,13 @@ function LoadTheArchive(TotalFeed)
 	    PostURLs.push(ThisPostURL);
 	}
     }
-    DisplaytheTOC(PostTitles,PostURLs);
+    DisplaytheTOC(PostTitles,PostURLs,PostYears,PostMonths,PostDays);
 }
 
-function DisplaytheTOC(PostTitles,PostURLs)
+function DisplaytheTOC(PostTitles,PostURLs,PostYears,PostMonths,PostDays)
 {
-    var MonthNames=["January","February","March","April","May","June","July","August","September","October","November","December"];
+    
     var NumberOfEntries=PostTitles.length;
     for(var EntryNum = 0; EntryNum < NumberOfEntries; EntryNum++)
-    {
-	NameOfMonth = MonthNames[parseInt(PostMonths[EntryNum],10)-1]
-	document.write('<a href ="'+PostURLs[EntryNum]+'">'+PostTitles[EntryNum]+"</a> ("+NameOfMonth+" "+parseInt(PostDays[EntryNum],10)+", "+PostYears[EntryNum]+")<br />");
-    }
+    
 }
