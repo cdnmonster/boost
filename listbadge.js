@@ -148,7 +148,7 @@ $.w.r.className="ybr";
 $.w.c.appendChild($.w.r);
 $.w.dtf=document.createElement("div");
 $.w.dtf.className="ybf";
-$.w.dtf.innerHTML="<a href=\"http://helplogger.blogspot.com\" class=\"yba\"></a> &nbsp;<div class=\"ybad\">Powered by <a class=\"ybaa\" href=\"http://helplogger.blogspot.com\">Helplogger</a><sup class=\"ybas\">e</sup></div><a class=\"gt\">Get This</a><div class=\"gts\">&#187;</div>";
+$.w.dtf.innerHTML="<a href=\"/" class=\"yba\"></a> &nbsp;<div class=\"ybad\">Please <a class=\"ybaa\" href=\"/">Wait.</a><sup class=\"ybas\">e</sup></div><a class=\"gt\">Loading Posts</a><div class=\"gts\">&#187;</div>";
 var _16=$.w.dtf.getElementsByTagName("a");
 this.getThisDiv=_16[2];
 var _17=$.w.dtf.getElementsByTagName("div");
